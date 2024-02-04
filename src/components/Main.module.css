@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 220, 214);
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 30px;
+}
+
+.gaz_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(168, 166, 174);
+    padding: 10px;
+    width: 100vw;
+}
+
+.electro_container_info {
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+.electro_container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* INPUT */
+.electro_container_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(232, 233, 228);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.ok_btn {
+    margin-left: 16px;
+}
+
+.electro_container_info {
+    border: 2px solid rgb(168, 166, 174);
+}
+
+.title_main {
+    font-size: 24px;
+    color:rgb(23, 20, 230)
+}
+
+.title {
+    margin: 0;
+    color:rgb(44, 42, 169)
+}
+
+.bankNumber {
+    margin-top: 0;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* TABLE */
+table {
+    margin-top: 16px;
+    border-collapse: collapse;
+}
+
+thead, 
+tr, 
+th {
+    padding: 5px;
+    border: 1px solid rgb(146, 164, 73);
+}
+
+tbody, 
+tr, 
+td {
+    padding: 5px;
+    border: 1px solid rgb(81, 88, 8);
+}
